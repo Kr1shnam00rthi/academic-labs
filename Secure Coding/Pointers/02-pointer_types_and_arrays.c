@@ -11,5 +11,6 @@ int main(){
         printf("array[%d] = %d\n",i,array[i]);
         printf("ptr+%d = %d\n",i,*(ptr+i));// Pointer addition  
     } 
+    void *ptr2; //Generic pointer used for comparision of pointers
     return 0;
 }
