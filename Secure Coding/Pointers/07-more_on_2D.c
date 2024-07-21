@@ -2,11 +2,11 @@
 #define ROWS 5
 #define COLS 10
 
-void set_value(int m_array[][10]){
+void set_value(int m_array[5][10]){
     int row,col;
     for(row=0;row<ROWS;row++){
         for(col=0;col<COLS;col++){
-            m_arcode.c:15:15: error: type of formal parameter 1 is incompleteray[row][col]=1;
+            m_array[row][col]=1;
         }
     }
 }
